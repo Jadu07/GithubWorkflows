@@ -5,6 +5,7 @@ on: push
 jobs:
   build-test:
     name: build
+    needs: lint
     runs-on: ubuntu-latest
 
     steps:

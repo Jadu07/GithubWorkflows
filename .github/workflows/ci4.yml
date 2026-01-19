@@ -5,6 +5,7 @@ on: push
 jobs:
   build-test:
     name: deploy
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
