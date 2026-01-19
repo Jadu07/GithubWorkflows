@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build-test:
-    name: build test and deploy
+    name: lint
     runs-on: ubuntu-latest
 
     steps:
